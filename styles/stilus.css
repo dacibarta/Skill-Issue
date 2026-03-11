@@ -1,0 +1,128 @@
+
+/*Header elemek*/
+header {
+    border-radius: 4px;
+    background-color: #101a3b;
+    padding: 10px;
+    margin: 5px 75px 5px 75px;
+}
+
+header img {
+    float: left;
+    margin: 10px 10px 0 10px;
+}
+
+header label {
+    color: #ebebeb;
+    float: right;
+}
+
+#fejlec{
+    color: #ebebeb;
+}
+
+nav {
+    margin: 5px 5px 15px 5px;
+    top: 0;
+    border-radius: 4px;
+    background-color: #050a1c;
+    box-shadow: 5px 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 15px 15px 0;
+}
+
+nav ul li {
+    padding: 15px 15px;
+    display: inline;
+}
+
+nav ul li.active {
+    /*border-right: 5px solid blue;*/
+    background: #1b2b5e;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+/*Body és content elemek*/
+
+body{
+    background-color: #0a1024;
+}
+
+div#wrapper {
+    margin: 20px 75px 5px 75px;
+}
+
+aside {
+    display: table-cell;
+    vertical-align: top;
+}
+
+div#content {
+    color: #ebebeb;
+    border-radius: 4px;
+    background-color: #203375;
+    padding: 15px;
+}
+
+div#content .video{
+    float: right;
+    width: 420px;
+    height: 315px;
+    margin: 0 0 15px 15px;
+    padding: 3px;
+}
+
+div#content .motivation{
+    width: 420px;
+    height: 315px;
+    margin: 0 0 15px 15px;
+    padding: 3px;
+}
+
+div#content .study{
+    width: 300px;
+    height: 250px;
+    margin: 0 0 15px 15px;
+    padding: 3px;
+}
+
+/*Galéria és felöltés elemek*/
+
+div#galeria {
+    margin: 0 0;
+    width: 1020px;
+}
+div.kep {
+    display: inline-block;
+}
+div.kep img {
+    width: 200px;
+}
+#upload label {
+    display: block;
+}
+input.tesztek {
+    display: none;
+}
+label#teszt {
+    display: block;
+    width: 200px;
+    background: #101a3b;
+    color: #ebebeb;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+a{
+    color: yellow;
+}
